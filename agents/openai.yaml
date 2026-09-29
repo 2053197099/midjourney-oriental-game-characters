@@ -1,0 +1,4 @@
+interface:
+  display_name: "东方游戏角色"
+  short_description: "创作东方武侠与神话游戏角色并生成精炼的中英文图像提示词"
+  default_prompt: "使用 $midjourney-oriental-game-characters 为东方武侠或神话游戏设计原创角色，输出清晰、精炼的中英文 Midjourney 提示词。"
