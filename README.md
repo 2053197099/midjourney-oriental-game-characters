@@ -1,6 +1,6 @@
 # 东方题材角色 Midjourney Skill
 
-为各类东方题材设计原创角色，并输出可直接使用的中英文 Midjourney 提示词。适用于游戏等视觉开发：从角色身份出发，选择能体现题材的身体特征、衣装与道具，再用动作、构图和光线呈现人物。提示词保持简短，角色之间有清晰的辨识度。
+为各类东方题材设计原创角色，并输出可直接使用的中英文 Midjourney 提示词。适用于游戏等视觉开发：从角色身份或物种出发，选择能体现题材的身体轮廓、衣装或道具，再用动作、构图和光线呈现角色。提示词保持简短，角色之间有清晰的辨识度。
 
 ## 题材范围
 
@@ -24,11 +24,11 @@
 
 单条提示词通常按以下顺序组织，按角色需要取舍：
 
-> 题材前缀 → 角色身份 → 一两处衣装特征与必要道具 → 一个动作 → 景别与构图 → 光线落点 → 一两个气质词 → 必要限制
+> 题材前缀 → 角色身份或物种 → 一两处关键身体特征、衣装或道具 → 一个动作 → 景别与构图 → 光线落点 → 一两个气质词 → 必要限制
 
-角色身份是起点。衣装和道具要符合职业与题材；动作、构图和光线共同突出一个视觉焦点。提示词采用一行短句，不靠人物履历、复杂配饰、特效或画质标签撑满画面。
+角色身份或物种是起点。人形角色的衣装、道具要符合身份与题材；异兽本体或机关兽可用形体、材质和动作建立辨识度。动作、构图和光线共同突出一个视觉焦点。提示词采用一行短句，不靠人物履历、复杂配饰、特效或画质标签撑满画面。
 
-通常使用半身或全身构图。中近景、近景在仍能看清衣装或关键道具，并有助于突出角色时也可使用。背景保持简洁，把注意力留给人物。
+人形角色通常使用半身或全身构图；需要展示完整轮廓的非人角色可用全身。中近景、近景在仍能看清关键造型时也可使用。背景保持简洁，把注意力留给角色。
 
 ## 输出格式
 
@@ -36,18 +36,18 @@
 - 中文和英文提示词分别放在一个代码块中，同一角色在两个代码块中的顺序一致。
 - 角色名放在代码块外；代码块内每行只放一条可复制的提示词。
 - 每条以题材和用途相符的前缀开头，例如“山海经题材角色设计”或“赛博东方游戏角色设计”；只有需要游戏角色时才加入“游戏”。
-- 单人角色可排除其他人物、文字和水印。古代题材且角色设定需要时才排除现代服饰；未来题材保留符合设定的科技或混合造型。
+- 单角色画面可排除其他角色、文字和水印。古代题材且角色设定需要时才排除现代服饰；未来题材保留符合设定的科技或混合造型。
 
 ### 示例
 
 **山海经 / 上古异兽**
 
 ```text
-山海经题材角色设计，神山守卫，额侧生出短角，粗麻披肩与石片护胸，手扶刻纹石杖侧身站立，半身偏心构图，斜光照亮短角和杖头，古老、警觉，无其他人物、文字、水印
+山海经题材异兽角色设计，鹿形异兽，额生双层黑石角，肩背覆青灰鳞甲，前足微屈回望，低机位全身侧面构图，侧光照亮角缘与鳞片，古老、戒备，无其他角色、文字、水印
 ```
 
 ```text
-Shan Hai Jing inspired character design, a guardian of a sacred mountain with short horns at the temples, a coarse linen mantle and stone-plated chest guard, one hand on a carved stone staff while standing sideways, off-center waist-up composition, angled light on the horns and staff head, ancient and alert, no other people, text, or watermarks
+Shan Hai Jing inspired mythical beast character design, a deer-shaped beast with layered black stone horns and blue-gray scales across its shoulders and back, front legs slightly bent as it looks back, low-angle full-body side composition, sidelight on horn edges and scales, ancient and wary, no other characters, text, or watermarks
 ```
 
 **聊斋 / 中式志怪**
