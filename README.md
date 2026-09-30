@@ -1,10 +1,21 @@
-# 东方游戏角色 Midjourney Skill
+# 东方题材角色 Midjourney Skill
 
-为东方武侠、仙侠、历史奇幻与神话游戏设计原创角色，并输出可直接使用的中英文 Midjourney 提示词。这个 Skill 聚焦人物的身份、衣装、道具、动作、构图和光线，让一组角色各有辨识度，同时保持提示词简短。
+为各类东方题材设计原创角色，并输出可直接使用的中英文 Midjourney 提示词。适用于游戏等视觉开发：从角色身份出发，选择能体现题材的身体特征、衣装与道具，再用动作、构图和光线呈现人物。提示词保持简短，角色之间有清晰的辨识度。
+
+## 题材范围
+
+以下方向均可用于角色设计；其中既有故事题材，也有时代文化和视觉风格，可按具体需求组合：
+
+- **神话与高幻想**：山海经 / 上古异兽、古风修仙 / 仙侠、东方玄幻、西游神话、封神 / 商周神话、东方海洋神话。
+- **志怪与民俗**：聊斋 / 中式志怪、中式克苏鲁 / 东方诡秘、民俗恐怖、中式妖怪 / 百妖夜行、地府 / 阴曹世界、苗疆 / 巫蛊幻想、傩文化 / 原始祭祀。
+- **宗教、历史与审美**：敦煌 / 飞天仙境、佛教神话 / 东方神性、道教神话 / 道法世界、古蜀 / 三星堆幻想、水墨仙境、宋韵 / 东方生活美学、盛唐幻想、东方梦境 / 诗词幻想。
+- **江湖与新幻想**：武侠 / 江湖、东方废土、赛博东方 / 赛博武侠、东方蒸汽朋克、东方机关术 / 墨家幻想。
+
+每个方向对应的角色身份与可见造型线索见 [题材与角色线索](references/theme-directions.md)。神山、鬼市、龙宫等可以辅助交代世界，但提示词仍以人物为主体。
 
 ## 适合做什么
 
-- 从一个题材或职业出发，设计一组不同的游戏角色，例如武侠门派人物、江湖职业或仙侠修行者。
+- 从一个题材或职业出发，设计一组不同的角色，例如异兽化形者、江湖职业、志怪人物或未来机关师。
 - 根据文字或图片参考提炼造型、姿态、镜头与光影，再设计原创角色。
 - 修改已有角色提示词中的衣装、武器、动作或画面表现。
 - 按指定数量、正反派比例、性别年龄、景别或气质生成角色系列。
@@ -24,29 +35,39 @@
 - 默认每批 5–10 组；用户指定数量优先。
 - 中文和英文提示词分别放在一个代码块中，同一角色在两个代码块中的顺序一致。
 - 角色名放在代码块外；代码块内每行只放一条可复制的提示词。
-- 每条以题材前缀开头，例如“东方武侠游戏角色设计”或“东方仙侠游戏角色设计”。
-- 单人古风角色默认排除其他人物、现代服饰、文字和水印；用户另有要求时调整。
+- 每条以题材和用途相符的前缀开头，例如“山海经题材角色设计”或“赛博东方游戏角色设计”；只有需要游戏角色时才加入“游戏”。
+- 单人角色可排除其他人物、文字和水印。古代题材且角色设定需要时才排除现代服饰；未来题材保留符合设定的科技或混合造型。
 
 ### 示例
 
-**武侠**
+**山海经 / 上古异兽**
 
 ```text
-东方武侠游戏角色设计，边关女巡哨，灰褐窄袖短袄与皮革护肩，单手扶短弓回望，半身偏心构图，夕光落在弓背和侧脸，沉着、敏锐，无其他人物、现代服饰、文字、水印
+山海经题材角色设计，神山守卫，额侧生出短角，粗麻披肩与石片护胸，手扶刻纹石杖侧身站立，半身偏心构图，斜光照亮短角和杖头，古老、警觉，无其他人物、文字、水印
 ```
 
 ```text
-Eastern wuxia game character design, a female frontier scout in a gray-brown narrow-sleeved jacket and leather shoulder guard, one hand on a short bow as she looks back, off-center waist-up composition, sunset light on the bow and her profile, composed and alert, no other people, modern clothing, text, or watermarks
+Shan Hai Jing inspired character design, a guardian of a sacred mountain with short horns at the temples, a coarse linen mantle and stone-plated chest guard, one hand on a carved stone staff while standing sideways, off-center waist-up composition, angled light on the horns and staff head, ancient and alert, no other people, text, or watermarks
 ```
 
-**仙侠**
+**聊斋 / 中式志怪**
 
 ```text
-东方仙侠游戏角色设计，守炉青年丹师，青灰束袖道袍与暗铜护腕，手托一枚新成丹药，半身侧面构图，炉火暖光照亮掌心和衣袖，谨慎、专注，无其他人物、现代服饰、文字、水印
+中式志怪角色设计，荒宅女画师，暗红交领衣与染墨袖口，指尖夹着未干的画笔回望，半身侧面构图，一束烛光照亮眼睛和笔尖，幽艳、镇定，无其他人物、现代服饰、文字、水印
 ```
 
 ```text
-Eastern xianxia game character design, a young furnace alchemist in a blue-gray fitted-sleeve robe and dark copper bracers, holding a freshly made pill, waist-up side composition, warm furnace light on the palm and sleeve, careful and focused, no other people, modern clothing, text, or watermarks
+Chinese supernatural folklore character design, a female painter of an abandoned house in a dark red cross-collar robe with ink-stained cuffs, turning back with a wet brush between her fingers, waist-up side composition, candlelight on her eyes and the brush tip, eerie and composed, no other people, modern clothing, text, or watermarks
+```
+
+**赛博东方**
+
+```text
+赛博东方游戏角色设计，未来城巡夜剑客，黑色束袖外袍叠穿轻型机械护臂，短剑收于身侧，半身偏心构图，蓝色屏光落在护臂和侧脸，克制、警觉，无其他人物、文字、水印
+```
+
+```text
+Cyber Eastern game character design, a night patrol swordsman of a future city in a black fitted-sleeve outer robe and light mechanical bracer, short sword at his side, off-center waist-up composition, blue screen light on the bracer and profile, restrained and alert, no other people, text, or watermarks
 ```
 
 ## 使用方式
@@ -54,15 +75,15 @@ Eastern xianxia game character design, a young furnace alchemist in a blue-gray 
 在 Codex 中调用这个 Skill，并说明你想要的角色方向。例如：
 
 ```text
-使用 $midjourney-oriental-game-characters，设计 10 个东方武侠角色，正派和反派各 5 个，职业与造型不要重复。
+使用 $midjourney-oriental-game-characters，设计 10 个东方题材角色，覆盖山海经、聊斋、武侠和赛博东方，身份与造型不要重复。
 ```
 
 ```text
-使用 $midjourney-oriental-game-characters，设计 6 个仙侠门派角色，以半身构图为主，衣装和法器保持简洁。
+使用 $midjourney-oriental-game-characters，设计 6 个民俗恐怖角色，以半身构图为主，服饰和道具保持克制。
 ```
 
 ```text
-使用 $midjourney-oriental-game-characters，参考这张图的服装层次和侧光，设计一个原创江湖角色，不复刻原角色。
+使用 $midjourney-oriental-game-characters，参考这张图的服装层次和侧光，设计一个原创东方海洋神话角色，不复刻原角色。
 ```
 
 你可以指定题材、数量、角色类型、年龄或性别倾向、正反派比例、道具、动作、景别、色彩及参考边界；不必一次填满所有条件。目标清楚时，Skill 会自行选择其余细节。
@@ -84,5 +105,6 @@ git clone git@github.com:2053197099/midjourney-oriental-game-characters.git ~/.c
 ## 仓库文件
 
 - `SKILL.md`：实际执行的角色设计与提示词规则。
+- `references/theme-directions.md`：26 个方向的角色切入点与可见造型线索。
 - `agents/openai.yaml`：Codex 中显示的 Skill 名称、说明与默认调用语。
 - `README.md`：项目介绍、使用方法和输出示例。
