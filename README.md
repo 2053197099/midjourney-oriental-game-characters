@@ -38,6 +38,14 @@
 
 镜头使用平视或略低机位，可选正面、侧面或四分之三视角；不使用俯视、略俯视、高机位、顶视或鸟瞰构图。人物可以低头或俯身操作道具，镜头仍保持平视或略低机位。参考图采用俯视时，借鉴造型或光影并调整机位。
 
+## 纯色底与美型东方异物
+
+纯色底按指定颜色或参考保持统一，背景无纹理、场景、烟雾或渐变，光线用于呈现角色本身的形体与材质。
+
+美型异物强调可读的面容、修长轮廓，以及鳞片、花瓣、翅膜等自然生长的结构。造型与衣装形成一个整体，主光保留面容，侧光或轮廓光呈现层次。美型、怪诞和恐怖程度按用户要求与参考决定。
+
+[美型东方异物规则与示例](references/elegant-supernatural-characters.md) 包含设计原则，以及白蛾、青鳞、绯莲、玉蝉等十个原创角色的中英文纯黑底提示词。
+
 ## 输出格式
 
 - 默认每批 5–10 组；用户指定数量优先。
@@ -100,6 +108,10 @@ Cyber Eastern game character design, a night patrol swordsman of a future city i
 使用 $midjourney-oriental-game-characters，参考这张图的服装层次和侧光，设计一个原创东方海洋神话角色，不复刻原角色。
 ```
 
+```text
+使用 $midjourney-oriental-game-characters，设计 10 个美型东方异物角色，统一纯黑底和平视半身构图，保留优雅面容，用鳞片、花瓣或翅膜建立异化特征。
+```
+
 你可以指定题材、数量、角色类型、年龄或性别倾向、正反派比例、道具、动作、景别、色彩及参考边界；不必一次填满所有条件。目标清楚时，Skill 会自行选择其余细节。
 
 ## 参考与原创
@@ -120,5 +132,6 @@ git clone git@github.com:2053197099/midjourney-oriental-game-characters.git ~/.c
 
 - `SKILL.md`：实际执行的角色设计与提示词规则。
 - `references/theme-directions.md`：26 个方向的角色切入点与可见造型线索。
+- `references/elegant-supernatural-characters.md`：美型异物与纯色底规则，以及十组中英文提示词示例。
 - `agents/openai.yaml`：Codex 中显示的 Skill 名称、说明与默认调用语。
 - `README.md`：项目介绍、使用方法和输出示例。
