@@ -39,7 +39,7 @@
 
 单条提示词通常按以下顺序组织，按角色需要取舍：
 
-> 题材前缀 → 角色身份或物种 → 一两处关键身体特征、衣装或道具 → 一个动作 → 全身构图与朝向 → 光线落点 → 一两个气质词 → 必要限制
+> 题材前缀 → 角色身份或物种 → 一两处关键身体特征、衣装或道具 → 一个动作 → 全身构图与朝向 → 光线落点 → 一两个气质词 → 按需限制
 
 角色身份或物种是起点。人形角色的衣装、道具要符合身份与题材；异兽本体或机关兽可用形体、材质和动作建立辨识度。动作、构图和光线共同突出一个视觉焦点。提示词采用一行短句，不靠人物履历、复杂配饰、特效或画质标签撑满画面。
 
@@ -61,38 +61,38 @@
 - 中文和英文提示词分别放在一个代码块中，同一角色在两个代码块中的顺序一致。
 - 角色名放在代码块外；代码块内每行只放一条可复制的提示词。
 - 每条以题材和用途相符的前缀开头，例如“山海经题材角色设计”或“赛博东方游戏角色设计”；只有需要游戏角色时才加入“游戏”。
-- 单角色画面可排除其他角色、文字和水印。古代题材且角色设定需要时才排除现代服饰；未来题材保留符合设定的科技或混合造型。
+- 不在每条提示词末尾固定添加“无场景、文字、水印”等排除词，仅在用户明确要求或确有必要时加入。单角色与单一背景优先用正向描述表达；其他限制词也按需添加。
 
 ### 示例
 
 **山海经 / 上古异兽**
 
 ```text
-山海经题材异兽角色设计，鹿形异兽，额生双层黑石角，肩背覆青灰鳞甲，前足微屈回望，平视全身侧面构图，侧光照亮角缘与鳞片，古老、戒备，纯色无纹理背景，完整入镜，无其他角色、文字、水印
+山海经题材异兽角色设计，鹿形异兽，额生双层黑石角，肩背覆青灰鳞甲，前足微屈回望，平视全身侧面构图，侧光照亮角缘与鳞片，古老、戒备，纯色无纹理背景，完整入镜
 ```
 
 ```text
-Shan Hai Jing inspired mythical beast character design, a deer-shaped beast with layered black stone horns and blue-gray scales across its shoulders and back, front legs slightly bent as it looks back, eye-level full-body side composition, sidelight on horn edges and scales, ancient and wary, flat solid-color background, entire figure in frame, no other characters, text, or watermarks
+Shan Hai Jing inspired mythical beast character design, a deer-shaped beast with layered black stone horns and blue-gray scales across its shoulders and back, front legs slightly bent as it looks back, eye-level full-body side composition, sidelight on horn edges and scales, ancient and wary, flat solid-color background, entire figure in frame
 ```
 
 **聊斋 / 中式志怪**
 
 ```text
-中式志怪角色设计，荒宅女画师，暗红交领衣与染墨袖口，指尖夹着未干的画笔回望，平视全身侧面构图，一束烛光照亮眼睛和笔尖，幽艳、镇定，纯色无纹理背景，完整入镜，无其他人物、现代服饰、文字、水印
+中式志怪角色设计，荒宅女画师，暗红交领衣与染墨袖口，指尖夹着未干的画笔回望，平视全身侧面构图，一束烛光照亮眼睛和笔尖，幽艳、镇定，纯色无纹理背景，完整入镜
 ```
 
 ```text
-Chinese supernatural folklore character design, a female painter of an abandoned house in a dark red cross-collar robe with ink-stained cuffs, turning back with a wet brush between her fingers, eye-level full-body side composition, candlelight on her eyes and the brush tip, eerie and composed, flat solid-color background, entire figure in frame, no other people, modern clothing, text, or watermarks
+Chinese supernatural folklore character design, a female painter of an abandoned house in a dark red cross-collar robe with ink-stained cuffs, turning back with a wet brush between her fingers, eye-level full-body side composition, candlelight on her eyes and the brush tip, eerie and composed, flat solid-color background, entire figure in frame
 ```
 
 **赛博东方**
 
 ```text
-赛博东方游戏角色设计，未来城巡夜剑客，黑色束袖外袍叠穿轻型机械护臂，短剑收于身侧，平视全身偏心构图，蓝色屏光落在护臂和侧脸，克制、警觉，纯色无纹理背景，完整入镜，无其他人物、文字、水印
+赛博东方游戏角色设计，未来城巡夜剑客，黑色束袖外袍叠穿轻型机械护臂，短剑收于身侧，平视全身偏心构图，蓝色屏光落在护臂和侧脸，克制、警觉，纯色无纹理背景，完整入镜
 ```
 
 ```text
-Cyber Eastern game character design, a night patrol swordsman of a future city in a black fitted-sleeve outer robe and light mechanical bracer, short sword at his side, eye-level off-center full-body composition, blue screen light on the bracer and profile, restrained and alert, flat solid-color background, entire figure in frame, no other people, text, or watermarks
+Cyber Eastern game character design, a night patrol swordsman of a future city in a black fitted-sleeve outer robe and light mechanical bracer, short sword at his side, eye-level off-center full-body composition, blue screen light on the bracer and profile, restrained and alert, flat solid-color background, entire figure in frame
 ```
 
 ## 使用方式

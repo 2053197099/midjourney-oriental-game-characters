@@ -1,4 +1,4 @@
 interface:
   display_name: "东方题材角色"
   short_description: "设计东方神话、志怪、民俗、历史美学与未来幻想角色提示词"
-  default_prompt: "使用 $midjourney-oriental-game-characters，题材未定时提供选项，已有方向时直接生成，采用全身构图，镜头以平视为主，姿态展示人物特征，背景单一，风格遵从用户要求，输出精炼的中英文 Midjourney 提示词。"
+  default_prompt: "使用 $midjourney-oriental-game-characters，题材未定时提供选项，已有方向时直接生成，采用全身构图，镜头以平视为主，姿态展示人物特征，背景单一，风格遵从用户要求，输出精炼的中英文 Midjourney 提示词，限制词按需添加。"
